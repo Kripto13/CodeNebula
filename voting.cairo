@@ -118,7 +118,7 @@ mod Vote {
     fn _register_voters(
         voter_1: ContractAddress, voter_2: ContractAddress, voter_3: ContractAddress
         ) {
-        // Register the 1st voter
+        // Register the first voter
         registered_voter::write(voter_1, true);
         can_vote::write(voter_1, true);
 
