@@ -103,7 +103,7 @@ mod Vote {
     // @param address (ContractAddress): address of the user
     // @return () : if the user can vote; otherwise, throw an error message and revert the transaction
     fn assert_allowed(address: ContractAddress) {
-        // Read the voting status of the user from storage
+        // Read the voting status of the user from STORAGE
         let is_voter: bool = registered_voter::read(address);
         let can_vote: bool = can_vote::read(address);
 
