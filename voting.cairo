@@ -61,9 +61,7 @@ mod Vote {
         registered_voter::read(address)
     }
 
-    // ------
     // External functions
-    // ------
 
     // @dev Submit a vote (0 for No and 1 for Yes)
     // @param vote (u8): vote value, 0 for No and 1 for Yes
