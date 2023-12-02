@@ -99,7 +99,7 @@ mod Vote {
     // Internal Functions
     // ------
 
-    // @dev Assert if an address is allowed to vote or not
+    // @dev Assert if an ADDRESS is allowed to vote or not
     // @param address (ContractAddress): address of the user
     // @return () : if the user can vote; otherwise, throw an error message and revert the transaction
     fn assert_allowed(address: ContractAddress) {
