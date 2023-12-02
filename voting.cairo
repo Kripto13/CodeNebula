@@ -29,9 +29,7 @@ mod Vote {
         no_votes::write(0_u8);
     }
 
-    // ------
     // Getter functions
-    // ------
 
     // @dev Return the number of yes and no votes
     // @return status (u8, u8): current status of the vote (yes votes, no votes)
