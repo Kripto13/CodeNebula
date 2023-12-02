@@ -5,9 +5,7 @@ mod Vote {
     use starknet::get_caller_address;
     use array::ArrayTrait;
 
-    // ------
     // Storage
-    // ------
     struct Storage {
         yes_votes: u8,
         no_votes: u8,
@@ -15,9 +13,7 @@ mod Vote {
         registered_voter: LegacyMap::<ContractAddress, bool>,
     }
 
-    // ------
     // Constructor
-    // ------
 
     // @dev constructor with a fixed number of registered voters (3)
     // @param voter_1 (ContractAddress): address of the first registered voter
